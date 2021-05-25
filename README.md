@@ -1,6 +1,6 @@
 # WalletWithAllowances
 
-This smart contract allows you to give pocket money to one or more people. This smart contract stores the money. It is possible for the donor of the money to get his money back. It is also possible for the recipient of the pocket money to get his money back.
+This smart contract allows you to give pocket money to one or more people. This smart contract stores the money. It is possible for the donor of the money to get his money back. It is also possible for the recipient of the pocket money to get his money.
 
 ## Functions 
 
@@ -10,7 +10,7 @@ Allows you to give pocket money to a recipient.
 
 ### getAllowance(address _owner, address _who)
 
-Allows you to obtain the amount of pocket money of a person based on their address and the address of the person who gave them the pocket money.
+Allows you to get the amount of pocket money of a person based on their address and the address of the person who gave them the pocket money.
 
 ### getBalance()
 
