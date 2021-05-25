@@ -4,22 +4,22 @@ This smart contract allows you to give pocket money to one or more people. This 
 
 ## Functions 
 
-### addAllowance
+### addAllowance(address _who)
 
 Allows you to give pocket money to a recipient.
 
-### getAllowance
+### getAllowance(address _owner, address _who)
 
 Allows you to obtain the amount of pocket money of a person based on their address and the address of the person who gave them the pocket money.
 
-### getBalance
+### getBalance()
 
 Allows you to obtain the total amount of money stored on the smart contract.
 
-### withdrawMoneyToBeneficiary
+### withdrawMoneyToBeneficiary(address _owner, address payable _beneficiary, uint _amount)
 
 Allows, when you are a beneficiary, to recover an amount of pocket money. You must enter your address as a beneficiary, the address of the person who gave you the pocket money and the amount you want to withdraw.
 
-### withdrawMoneyFromOwner
+### withdrawMoneyFromOwner(address payable _owner, address _beneficiary, uint _amount)
 
 Allows, when you have given your money to a beneficiary, to recover an amount of this money given. You have to fill in your address as the owner, the address of the beneficiary to whom you have given pocket money and the amount you want to withdraw.
